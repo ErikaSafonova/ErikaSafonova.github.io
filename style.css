@@ -163,9 +163,41 @@ body {
   margin: 25px 0px;
   color: rgb(45, 231, 213);
 }
-
-.maintext {
-  margin: 30px;
+.hobby_inner h5 {
+  font-size: 23px;
+  margin-bottom: 5px;
+}
+.pra p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+footer {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  font-size: 30px;
+  color: rgb(45, 231, 213);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.social {
+  display: flex;
+}
+.social a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 22px 10px;
+  background: rgb(45, 231, 213);
 }
 .menu2 {
   display: flex;
@@ -191,4 +223,10 @@ span {
 }
 .list :hover {
   color: blue;
+}
+.end {
+  text-decoration: none;
+
+  color: rgb(235, 232, 229);
+  font-size: 16px;
 }

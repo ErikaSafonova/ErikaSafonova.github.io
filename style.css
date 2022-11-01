@@ -117,6 +117,10 @@ body {
   font-size: 15px;
   margin-bottom: 45px;
 }
+.about_text a {
+  text-decoration: none;
+  color: aqua;
+}
 
 .main_text {
   width: 1130px;
@@ -227,8 +231,5 @@ span {
   color: blue;
 }
 .end {
-  text-decoration: none;
-
-  color: rgb(235, 232, 229);
   font-size: 16px;
 }

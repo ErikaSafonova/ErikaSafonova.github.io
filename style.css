@@ -82,6 +82,50 @@ body {
 .main_title {
   color: rgb(45, 231, 213);
 }
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+.about img {
+  height: auto;
+  width: 430px;
+  border-radius: 20%;
+}
+.about_text {
+  width: 450px;
+}
+.about_text h2 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+.about_text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  font-weight: lighter;
+}
+.about_text p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 15px;
+  margin-bottom: 45px;
+}
+
+.main_text {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
 .maintext {
   margin: 30px;
@@ -95,15 +139,11 @@ body {
   padding: 25px;
 }
 
-.span {
-  background-color: rgb(55, 153, 158);
+span {
+  color: rgb(45, 231, 213);
+  font-weight: bold;
 }
 
-.text {
-  font-family: verdana;
-  text-align: justify;
-  color: rgb(29, 116, 120);
-}
 .main {
   font-family: verdana;
   text-align: center;

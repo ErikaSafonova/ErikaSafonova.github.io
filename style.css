@@ -127,6 +127,43 @@ body {
   justify-content: space-around;
 }
 
+.hobby {
+  background-color: #191919;
+  width: 100%;
+  padding: 100px 0px;
+}
+.title2 h2 {
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: normal;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.hobby_inner {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 15px;
+  text-align: center;
+  overflow: hidden;
+}
+.hobby_inner i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: rgb(45, 231, 213);
+}
+
 .maintext {
   margin: 30px;
 }

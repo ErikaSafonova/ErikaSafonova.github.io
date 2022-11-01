@@ -6,10 +6,12 @@ html {
 }
 
 p {
-  font-family: verdana;
+  font-style: normal;
 }
 body {
+  position: relative;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 .header {
   position: sticky;
@@ -17,7 +19,7 @@ body {
 }
 .navbar {
   display: flex;
-  background-color: rgb(61, 118, 118);
+  background-color: rgb(22, 21, 21);
   flex-direction: row;
   align-items: center;
   padding: 8px 32px;
@@ -25,9 +27,9 @@ body {
   width: 100%;
 }
 .title {
-  color: black;
-  font-size: 24px;
-  font-family: verdana;
+  color: rgb(235, 232, 229);
+  font-size: 18pt;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
@@ -47,13 +49,40 @@ body {
   border-radius: 15px;
   margin: 0px 4px;
   background-color: transparent;
+  color: rgb(235, 232, 229);
   font-size: 16px;
-  font-family: verdana;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
 }
 
 .menu a:hover {
-  background-color: rgb(134, 161, 223);
+  color: rgb(45, 231, 213);
 }
+.header_body {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+.header_body_inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+.header_body_inner .left {
+  font-size: 46px;
+}
+
+.header_body_inner .right img {
+  border-radius: 100px;
+  width: 90%;
+  height: 90%;
+}
+.main_title {
+  color: rgb(45, 231, 213);
+}
+
 .maintext {
   margin: 30px;
 }

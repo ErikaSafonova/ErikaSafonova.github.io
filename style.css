@@ -198,6 +198,8 @@ footer p {
   justify-content: center;
   margin: 22px 10px;
   background: rgb(45, 231, 213);
+  border-radius: 50%;
+  text-decoration: none;
 }
 .menu2 {
   display: flex;

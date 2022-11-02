@@ -175,6 +175,42 @@ body {
   font-size: 16px;
   margin-bottom: 25px;
 }
+.portfolio {
+  display: block;
+  justify-content: center;
+  background-color: #191919;
+
+  padding-top: 64px;
+}
+.portfolio_content1 {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
+  gap: 30px;
+  justify-content: space-around;
+}
+.portfolio_content2 {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.row img {
+  width: 430px;
+  border-radius: 10%;
+  display: block;
+  transition: transform 0.5s;
+}
+.layer {
+  color: white;
+  font-weight: lighter;
+}
 footer {
   position: relative;
   width: 100%;

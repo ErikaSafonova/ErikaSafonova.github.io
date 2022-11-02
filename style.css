@@ -69,6 +69,8 @@ body {
   align-items: center;
   width: 100%;
   padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .header_body_inner .left {
   font-size: 46px;
@@ -76,8 +78,9 @@ body {
 
 .header_body_inner .right img {
   border-radius: 100px;
-  width: 90%;
-  height: 90%;
+  width: 600px;
+  display: block;
+  transition: transform 0.5s;
 }
 .main_title {
   color: rgb(45, 231, 213);
@@ -179,7 +182,6 @@ body {
   display: block;
   justify-content: center;
   background-color: #191919;
-
   padding-top: 64px;
 }
 .portfolio_content1 {

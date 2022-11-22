@@ -4,6 +4,12 @@
   }
 }
 @media only screen and (max-width: 992px) {
+  .title {
+    color: rgb(235, 232, 229);
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+  }
   .hamburger {
     display: block;
     cursor: pointer;
@@ -18,7 +24,7 @@
   .menu {
     height: 300px;
     position: absolute;
-    top: 65px;
+    top: 93px;
     left: 60%;
     right: 0;
     flex-direction: column;
@@ -31,11 +37,21 @@
     display: block;
     width: fit-content;
     margin: 40px auto 0 auto;
+    font-size: 20px;
     text-align: center;
     transition: 0.5s;
   }
   .menu.active {
     height: 300px;
+  }
+  .about img {
+    height: auto;
+    width: 700px;
+    border-radius: 20%;
+  }
+
+  .about_text {
+    width: 700px;
   }
   .main_text {
     width: 1130px;
@@ -43,13 +59,13 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
+
     justify-content: space-around;
   }
   .about_text h2 {
     color: white;
     letter-spacing: 2px;
-    font-size: 65px;
+    font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 10px;
     font-weight: normal;
@@ -58,16 +74,16 @@
   .about_text h5 {
     color: white;
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 25px;
     font-weight: lighter;
     text-align: center;
   }
   .about_text p {
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     line-height: 28px;
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 45px;
     text-align: left;
   }
@@ -88,7 +104,7 @@
   }
   .hobby_inner {
     height: 435px;
-    width: 400px;
+    width: 700px;
     padding: 20px 35px;
     background-color: white;
     border-radius: 20px;
@@ -97,7 +113,7 @@
     overflow: hidden;
   }
   .hobby_inner i {
-    font-size: 60px;
+    font-size: 80px;
     display: block;
     text-align: center;
     margin: 25px 0px;
@@ -151,9 +167,13 @@
   .layer {
     color: white;
     font-weight: lighter;
+    font-size: 22px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
+  .navbar {
+    padding: 30px 50px;
+  }
   .header_body_inner {
     display: flex;
     flex-direction: column;
@@ -165,7 +185,12 @@
     margin-bottom: 20px;
   }
   .header_body_inner .left {
-    font-size: 36px;
+    font-size: 50px;
     padding-bottom: 20px;
+  }
+  .about img {
+    height: auto;
+    width: 600px;
+    border-radius: 20%;
   }
 }

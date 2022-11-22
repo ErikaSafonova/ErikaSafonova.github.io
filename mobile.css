@@ -1,10 +1,37 @@
 @media only screen and (max-width: 1024px) {
-    .header {
-       padding: 0 30px;
-    }
+  .header {
+    padding: 0 50px;
+  }
 }
-@media only screen and (max-width: 768px) {
-    .header {
-       
-    }
+@media only screen and (max-width: 992px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    padding: 0;
+  }
+  .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 6px 0;
+  }
+  .menu {
+    height: 300px;
+    position: absolute;
+    top: 65px;
+    left: 60%;
+    right: 0;
+    flex-direction: column;
+    
+    align-items: center;
+    background: rgb(22, 21, 21);
+    transition: 0.2s;
+  }
+  .menu li {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+  }
 }

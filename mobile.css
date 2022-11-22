@@ -24,7 +24,7 @@
   .menu {
     height: 300px;
     position: absolute;
-    top: 93px;
+    top: 74.4px;
     left: 60%;
     right: 0;
     flex-direction: column;
@@ -170,7 +170,7 @@
     font-size: 22px;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px min-width: 250) {
   .navbar {
     padding: 30px 50px;
   }

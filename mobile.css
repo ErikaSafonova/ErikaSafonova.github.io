@@ -22,7 +22,7 @@
     left: 60%;
     right: 0;
     flex-direction: column;
-    
+
     align-items: center;
     background: rgb(22, 21, 21);
     transition: 0.2s;
@@ -71,20 +71,101 @@
     margin-bottom: 45px;
     text-align: left;
   }
+  .title2 h2 {
+    color: white;
+    font-size: 65px;
+
+    margin: 20px auto;
+    text-align: center;
+    font-weight: normal;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+  }
+  .hobby_inner {
+    height: 435px;
+    width: 400px;
+    padding: 20px 35px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 15px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .hobby_inner i {
+    font-size: 60px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(45, 231, 213);
+  }
+  .hobby_inner h5 {
+    font-size: 27px;
+    margin-bottom: 5px;
+  }
+  .pra p {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .portfolio_content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 30px;
+    justify-content: space-around;
+  }
+  .portfolio_content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 30px;
+    justify-content: space-around;
+  }
+  .portfolio_content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 30px;
+    justify-content: space-around;
+  }
+
+  .row img {
+    width: 700px;
+    border-radius: 10%;
+    display: block;
+    transition: transform 0.5s;
+  }
+  .layer {
+    color: white;
+    font-weight: lighter;
+  }
 }
 @media only screen and (max-width: 768px) {
-    .header_body_inner {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        padding: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-      .header_body_inner .left {
-        font-size: 36px;
+  .header_body_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .header_body_inner .left {
+    font-size: 36px;
     padding-bottom: 20px;
-      }
+  }
 }

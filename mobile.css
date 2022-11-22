@@ -170,7 +170,7 @@
     font-size: 22px;
   }
 }
-@media only screen and (max-width: 768px min-width: 250) {
+@media only screen and (max-width: 768px) {
   .navbar {
     padding: 30px 50px;
   }

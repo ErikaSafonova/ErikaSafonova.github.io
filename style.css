@@ -213,6 +213,15 @@ a:hover {
   gap: 30px;
   justify-content: space-around;
 }
+.portfolio_content3 {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
+  gap: 30px;
+  justify-content: space-around;
+}
 
 .row img {
   width: 600px;

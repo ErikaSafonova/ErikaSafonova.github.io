@@ -21,15 +21,19 @@ img {
 .header {
   position: sticky;
   top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: rgb(22, 21, 21);
 }
 .navbar {
   display: flex;
-  background-color: rgb(22, 21, 21);
   flex-direction: row;
   align-items: center;
-  padding: 8px 32px;
+  padding: 16px 32px;
   justify-content: space-between;
-  width: 100%;
+  max-width: 1382px;
+  margin: 0 auto;
 }
 .title {
   color: rgb(235, 232, 229);
@@ -37,6 +41,13 @@ img {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
+.title a {
+  color: white;
+}
+.humburger {
+  display: none;
+}
+
 a {
   text-decoration: none;
 }

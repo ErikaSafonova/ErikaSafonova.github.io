@@ -43,7 +43,7 @@
     transition: 0.5s;
   }
   .menu a {
-    font-size: 25px;
+    font-size: 23px;
   }
   .menu.active {
     left: 50%;
@@ -56,7 +56,7 @@
     width: 100%;
   }
   .header_body_inner .left {
-    font-size: 50px;
+    font-size: 45px;
     padding-bottom: 20px;
   }
   .about img {
@@ -66,7 +66,7 @@
   }
 
   .about img {
-    width: 700px;
+    width: 600px;
   }
 
   .about_text {
@@ -80,6 +80,7 @@
   .about_text h2 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 60px;
   }
   .about_text h5 {
     font-size: 20px;
@@ -90,7 +91,7 @@
     text-align: left;
   }
   .title2 h2 {
-    font-size: 65px;
+    font-size: 60px;
   }
   .box {
     display: flex;
@@ -107,10 +108,10 @@
     font-size: 80px;
   }
   .hobby_inner h5 {
-    font-size: 27px;
+    font-size: 25px;
   }
   .pra p {
-    font-size: 23px;
+    font-size: 20px;
   }
   .portfolio_content1 {
     display: flex;
@@ -159,8 +160,66 @@
     margin: 22px 30px;
   }
 }
-@media screen and (max-width: 479px) {
-  .social {
-    display: none;
+@media screen and (max-device-width: 479px) {
+  .navbar {
+    padding: 35px 32px;
+  }
+  .menu {
+    height: 500px;
+
+    top: 112.4px;
+  }
+  .menu li {
+    margin: 65px auto 0 auto;
+  }
+  .menu a {
+    font-size: 30px;
+  }
+  .menu.active {
+    left: 40%;
+  }
+  .line {
+    width: 40px;
+    height: 4px;
+    margin: 8px auto;
+  }
+
+  .hamburger.active .line:nth-child(1) {
+    transform: translateY(12px) rotate(45deg);
+  }
+  .hamburger.active .line:nth-child(3) {
+    transform: translateY(-12px) rotate(-45deg);
+  }
+
+  .header_body_inner .left {
+    font-size: 60px;
+  }
+  .header_body_inner .right img {
+    width: 650px;
+  }
+  .hobby_inner h5 {
+    font-size: 29px;
+  }
+  .pra p {
+    font-size: 25px;
+  }
+  .hobby_inner {
+    height: 435px;
+    width: 750px;
+  }
+
+  .row img {
+    width: 750px;
+  }
+  .layer {
+    font-size: 26px;
+  }
+  footer p {
+    margin-bottom: 40px;
+  }
+  .social a {
+    width: 90px;
+    height: 90px;
+    margin: 22px 30px;
   }
 }

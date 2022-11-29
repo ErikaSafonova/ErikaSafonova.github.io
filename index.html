@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap"
       rel="stylesheet"
     />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -31,14 +32,10 @@
     <link rel="stylesheet" href="mobile.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="navbar">
+    <header>
+      <nav class="navbar">
         <div class="title"><a href="#top">Сафонова Еріка</a></div>
-        <div class="hamburger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
+
         <ul class="menu">
           <li>
             <a href="#about">Про мене</a>
@@ -53,8 +50,13 @@
             <a href="#contacts">Контакти</a>
           </li>
         </ul>
-      </div>
-    </div>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+    </header>
     <div class="header_body" id="me">
       <div class="header_body_inner">
         <div class="left">
@@ -203,5 +205,13 @@
       </div>
       <p class="end"><a href="#top">На початок</a></p>
     </footer>
+    <script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onclick = function () {
+        menu = document.querySelector(".menu");
+        menu.classList.toggle("active");
+        hamburger.classList.toggle("active");
+      };
+    </script>
   </body>
 </html>

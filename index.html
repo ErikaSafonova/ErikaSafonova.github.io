@@ -30,7 +30,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mobile.css" />
-    <link rel="stylesheet" href="mobile2.css" />
+    <link rel="stylesheet" href="lightgallery/lightgallery.css" />
   </head>
   <body>
     <header>
@@ -145,7 +145,7 @@
         <h2>Мої роботи</h2>
       </div>
       <div class="portfolio_content1">
-        <div class="row">
+        <div class="row" id="lightgallery">
           <img src="portfolio1.jpg" />
           <div class="layer">
             <p>Календар на тему «Борці за незалежність»</p>
@@ -213,6 +213,10 @@
         menu.classList.toggle("active");
         hamburger.classList.toggle("active");
       };
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js"></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById("lightgallery"));
     </script>
   </body>
 </html>

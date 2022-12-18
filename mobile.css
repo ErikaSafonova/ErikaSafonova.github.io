@@ -134,14 +134,31 @@
   .layer {
     font-size: 22px;
   }
-  footer p {
-    font-size: 45px;
+  .contact {
+    padding: 50px;
+  }
+  .content-inside {
+    flex-direction: column;
+  }
+  .content-inside .contactInfo {
+    margin-bottom: 40px;
+  }
+  .content-inside .contactInfo,
+  .contactForm {
+    width: 100%;
   }
 
   .social a {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     margin: 22px 30px;
+  }
+  .socialText h3 {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .socialText p {
+    font-size: 18px;
   }
 }
 @media screen and (max-device-width: 479px) {
@@ -206,12 +223,69 @@
   .layer {
     font-size: 26px;
   }
-  footer p {
-    margin-bottom: 40px;
-  }
+
   .social a {
     width: 90px;
     height: 90px;
     margin: 22px 30px;
+  }
+  .contact .content h2 {
+    font-size: 50px;
+  }
+  .contact {
+    padding: 40px;
+  }
+  .content-inside {
+    flex-direction: column;
+  }
+  .content-inside .contactInfo {
+    margin-bottom: 40px;
+  }
+  .content-inside .contactInfo,
+  .contactForm {
+    width: 100%;
+  }
+  .contactForm {
+    height: 600px;
+    padding: 40px;
+    background: white;
+  }
+  .contactForm .inputBox input {
+    padding: 10px 0;
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  .contactForm .inputBox textarea {
+    padding: 10px 0;
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  .contactForm .inputBox span {
+    font-size: 30px;
+  }
+  .contactForm .inputBox input:focus ~ span,
+  .contactForm .inputBox input:valid ~ span,
+  .contactForm .inputBox textarea:focus ~ span,
+  .contactForm .inputBox textarea:valid ~ span {
+    font-size: 20px;
+  }
+  .contactForm .inputBox input[type="submit"] {
+    width: 150px;
+    font-size: 40px;
+  }
+  .contactForm h2 {
+    font-size: 32px;
+  }
+  .social a {
+    width: 100px;
+    height: 100px;
+    margin: 22px 30px;
+  }
+  .socialText h3 {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+  .socialText p {
+    font-size: 28px;
   }
 }

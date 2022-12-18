@@ -300,8 +300,8 @@ a:hover {
   display: flex;
 }
 .social a {
-  min-width: 55px;
-  height: 55px;
+  min-width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -323,7 +323,7 @@ a:hover {
   background: white;
 }
 .contactForm h2 {
-  color: white;
+  color: #191919;
 }
 .contactForm .inputBox {
   position: relative;

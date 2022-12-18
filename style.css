@@ -185,7 +185,7 @@ a:hover {
 }
 .title2 h2 {
   color: white;
-  font-size: 75px;
+  font-size: 70px;
 
   margin: 20px auto;
   text-align: center;
@@ -238,24 +238,7 @@ a:hover {
   gap: 30px;
   justify-content: space-around;
 }
-.portfolio_content2 {
-  display: flex;
-  align-items: center;
-  margin-top: 70px;
-  margin-left: 70px;
-  margin-right: 70px;
-  gap: 30px;
-  justify-content: space-around;
-}
-.portfolio_content3 {
-  display: flex;
-  align-items: center;
-  margin-top: 70px;
-  margin-left: 70px;
-  margin-right: 70px;
-  gap: 30px;
-  justify-content: space-around;
-}
+
 .portfolio_content1 img {
   width: 600px;
   border-radius: 10%;
@@ -274,21 +257,28 @@ a:hover {
   color: white;
   font-weight: lighter;
 }
-footer {
+
+.contact  {
   position: relative;
-  width: 100%;
-  height: 400px;
-  background: #191919;
+  
+  padding: 50px 100px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #191919;
+  
 }
-footer p {
-  font-size: 30px;
-  color: rgb(45, 231, 213);
-  margin-bottom: 20px;
-  font-weight: bold;
+.contact .content {
+  max-width: 800px;
+  text-align: center;
+
+}
+.contact .content h2{
+ font-size: 36px;
+ font-weight: bold;
+ color: rgb(45, 231, 213);
+
 }
 .social {
   display: flex;
@@ -314,19 +304,12 @@ footer p {
 }
 
 .main {
-  font-family: verdana;
+  
   text-align: center;
   color: rgb(29, 116, 120);
 }
-.list {
-  font-family: verdana;
-}
-.list :hover {
-  color: blue;
-}
-.end {
-  font-size: 16px;
-}
+
+
 section {
   width: 100%;
   min-height: 100vh;

@@ -283,8 +283,8 @@ a:hover {
 .content-inside {
   width: 100%;
   display: flex;
-  
-  justify-content: center;
+  flex-direction: row;
+  justify-content:space-between;
   align-items: center;
   margin-top: 30px;
 }
@@ -294,10 +294,13 @@ a:hover {
   flex-direction: column;
 
 }
+
+
 .content-inside .contactInfo .contactBox {
   position: relative;
   padding: 20px 0;
   display: flex;
+  
 }
 .social {
   display: flex;
@@ -320,6 +323,9 @@ a:hover {
   color: white;
   flex-direction: column;
 
+}
+.contactForm h2{
+  color: white;
 }
 .contactForm .inputBox {
   position: relative;
@@ -364,6 +370,15 @@ a:hover {
   font-size: 12px;
   color: rgb(45, 231, 213);
   transform:translateY(-20px);
+}
+.contactForm .inputBox input[type=submit] {
+  width: 100px;
+  background:  rgb(45, 231, 213);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
 }
 .menu2 {
   display: flex;

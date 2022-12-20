@@ -16,6 +16,8 @@ img {
   height: auto;
 }
 
+/* HEADER */
+
 header {
   position: sticky;
   top: 0;
@@ -93,6 +95,9 @@ a:hover {
 .menu a:hover {
   color: rgb(45, 231, 213);
 }
+
+/* 1ST SECTION */
+
 .header_body {
   width: 100%;
   min-height: 100vh;
@@ -119,6 +124,9 @@ a:hover {
   display: block;
   transition: transform 0.5s;
 }
+
+/* ABOUT */
+
 .main_title {
   color: rgb(45, 231, 213);
 }
@@ -172,6 +180,8 @@ a:hover {
   justify-content: space-around;
 }
 
+/* HOBBY */
+
 .hobby {
   background-color: #191919;
   width: 100%;
@@ -219,6 +229,9 @@ a:hover {
   font-size: 16px;
   margin-bottom: 25px;
 }
+
+/* PORTFOLIO */
+
 .portfolio {
   display: block;
   justify-content: center;
@@ -254,6 +267,8 @@ a:hover {
   color: white;
   font-weight: lighter;
 }
+
+/* CONTACT */
 
 .contact {
   position: relative;

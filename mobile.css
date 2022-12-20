@@ -48,6 +48,9 @@
   .menu.active {
     left: 50%;
   }
+  .nav-link {
+    transition: 0.7s ease;
+  }
   .header_body {
     width: 100%;
     min-height: 100%;

@@ -5,9 +5,6 @@ html {
   scroll-behavior: smooth;
 }
 
-p {
-  font-style: normal;
-}
 body {
   position: relative;
   margin: 0;
@@ -39,7 +36,7 @@ header {
 .title {
   color: rgb(235, 232, 229);
   font-size: 18pt;
-  font-family: "Montserrat", sans-serif;
+
   font-weight: bold;
 }
 .title a {
@@ -85,7 +82,7 @@ a:hover {
   background-color: transparent;
   color: rgb(235, 232, 229);
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+
   font-weight: lighter;
   transition: 0.5s ease;
 }
@@ -260,7 +257,6 @@ a:hover {
 
 .contact {
   position: relative;
-
   padding: 50px 100px;
   display: flex;
   justify-content: center;

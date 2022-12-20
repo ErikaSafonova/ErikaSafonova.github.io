@@ -54,16 +54,16 @@
 
         <ul class="menu">
           <li>
-            <a href="#about">Про мене</a>
+            <a href="#about" class="nav-link">Про мене</a>
           </li>
           <li>
-            <a href="#hobby">Захоплення</a>
+            <a href="#hobby" class="nav-link">Захоплення</a>
           </li>
           <li>
-            <a href="#portfolio">Портфоліо</a>
+            <a href="#portfolio" class="nav-link">Портфоліо</a>
           </li>
           <li>
-            <a href="#contacts">Контакти</a>
+            <a href="#contacts" class="nav-link">Контакти</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -246,6 +246,12 @@
         menu.classList.toggle("active");
         hamburger.classList.toggle("active");
       };
+      document.querySelectorAll(".nav-link").forEach((n) =>
+        n.addEventListener("click", () => {
+          menu.classList.remove("active");
+          hamburger.classList.remove("active");
+        })
+      );
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js"></script>
     <script type="text/javascript">

@@ -1,6 +1,152 @@
-@media screen and (max-width: 1024px) {
+@media screen and (min-device-width: 2559px) {
   .header {
     padding: 0 50px;
+  }
+  .title {
+    font-size: 28pt;
+  }
+  .menu a {
+    font-size: 25px;
+  }
+  .navbar {
+    padding: 32px 20px;
+
+    max-width: 2100px;
+  }
+  .header_body_inner {
+    padding: 20px;
+    margin-top: 180px;
+    margin-bottom: 0px;
+  }
+  .header_body_inner .left {
+    font-size: 85px;
+    padding-bottom: 20px;
+  }
+  .header_body_inner .right img {
+    border-radius: 100px;
+    width: 1000px;
+    display: block;
+    transition: transform 0.5s;
+  }
+  .about img {
+    width: 780px;
+  }
+  .main_text {
+    width: 2000px;
+  }
+  .about_text {
+    width: 1000px;
+  }
+  .about {
+    padding: 280px 0px;
+    background-color: #191919;
+  }
+  .about_text h2 {
+    font-size: 110px;
+
+    margin-bottom: 22px;
+  }
+  .about_text h5 {
+    font-size: 30px;
+  }
+  .about_text p {
+    font-size: 22px;
+    margin-bottom: 45px;
+  }
+  .hobby {
+    padding: 280px 0px;
+  }
+  .title2 h2 {
+    font-size: 110px;
+
+    margin: 40px auto;
+  }
+  .box {
+    min-height: 400px;
+  }
+  .hobby_inner {
+    height: 665px;
+    width: 535px;
+    padding: 20px 35px;
+
+    margin: 15px;
+  }
+  .hobby_inner i {
+    font-size: 100px;
+
+    margin: 25px 0px;
+  }
+  .hobby_inner h5 {
+    font-size: 45px;
+  }
+  .pra p {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .contact .content {
+    max-width: 1000px;
+    text-align: center;
+  }
+  .contact .content h2 {
+    font-size: 90px;
+  }
+  .content-inside {
+    margin-top: 40px;
+  }
+
+  .content-inside .contactInfo .contactBox {
+    padding: 40px 0;
+  }
+
+  .social a {
+    min-width: 110px;
+    height: 110px;
+  }
+  .socialText {
+    font-size: 28px;
+  }
+  .socialText p {
+    font-size: 23px;
+  }
+
+  .contactForm {
+    width: 40%;
+    padding: 40px;
+    background: white;
+  }
+
+  .contactForm .inputBox {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .contactForm h2 {
+    font-size: 35px;
+  }
+  .contactForm .inputBox input {
+    font-size: 40px;
+  }
+  .contactForm .inputBox textarea {
+    font-size: 28px;
+  }
+  .contactForm .inputBox span {
+    font-size: 23px;
+  }
+  .contactForm .inputBox input:focus ~ span,
+  .contactForm .inputBox input:valid ~ span,
+  .contactForm .inputBox textarea:focus ~ span,
+  .contactForm .inputBox textarea:valid ~ span {
+    font-size: 18px;
+  }
+  .contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: rgb(45, 231, 213);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 28px;
   }
 }
 
